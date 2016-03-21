@@ -7,7 +7,7 @@ import 'sentence_generator.dart' show SentenceGenerator;
 
 part 'irc.dart';
 
-void main(arguments) {
+void main(arguments) { 
   var generator = new SentenceGenerator();
   arguments.forEach(generator.addBook);
   runIrcBot(generator);
